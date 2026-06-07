@@ -2,7 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./tokens.css";
+/**
+ * Tokens de la charte Solayia (inline ici pour un import cross-package fiable).
+ * Référence documentée : ./tokens.css
+ */
+:root {
+  --bg: #f4f4ef;
+  --surface: #ffffff;
+  --surface-2: #faf9f4;
+  --navy: #0e1937;
+  --navy-d: #0a1229;
+  --navy-tint: #eceef3;
+  --gold: #cca95b;
+  --gold-d: #b8964a;
+  --gold-bg: #f7efd9;
+  --ink: #0e1937;
+  --ink-2: #56607a;
+  --faint: #9aa0ad;
+  --line: #e6e5dd;
+  --font-title: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+}
 
 @layer base {
   html {
@@ -25,7 +45,6 @@
     font-weight: 600;
   }
 
-  /* Focus visible cohérent (accessibilité) */
   :focus-visible {
     outline: 2px solid var(--gold);
     outline-offset: 2px;

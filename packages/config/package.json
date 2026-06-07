@@ -7,12 +7,14 @@
     "tsconfig.base.json",
     "tsconfig.nextjs.json",
     "eslint.config.base.mjs",
+    "eslint.config.next.mjs",
     "prettier.config.mjs"
   ],
   "exports": {
     "./tsconfig.base.json": "./tsconfig.base.json",
     "./tsconfig.nextjs.json": "./tsconfig.nextjs.json",
     "./eslint": "./eslint.config.base.mjs",
+    "./eslint-next": "./eslint.config.next.mjs",
     "./prettier": "./prettier.config.mjs"
   },
   "dependencies": {
