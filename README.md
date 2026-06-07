@@ -38,7 +38,17 @@ solayia-hub/
 └── CLAUDE.md
 ```
 
-> ℹ️ À ce stade, seules les **fondations documentaires** sont en place (`CLAUDE.md` + skills). Le scaffold technique du monorepo et des apps est prévu pour les étapes suivantes.
+> ✅ **Phase 1 (socle) en place** : monorepo pnpm + Turborepo, design system `@solayia/ui`, client partagé `@solayia/supabase`, app `hub` (accueil + auth), coquilles `ia-solayia` / `crm`, CI GitHub Actions. Le contenu interne de l'IA et du CRM viendra dans les phases suivantes.
+
+## Démarrage
+
+```bash
+pnpm install
+cp apps/hub/.env.example apps/hub/.env.local   # renseigner les clés Supabase
+pnpm dev                                        # lance les apps (hub :3000, ia-solayia :3001, crm :3002)
+```
+
+Vérifs : `pnpm typecheck` · `pnpm lint` · `pnpm build` (doivent passer).
 
 ## Design
 
