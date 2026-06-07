@@ -1,0 +1,23 @@
+{
+  "name": "@solayia/config",
+  "version": "0.1.0",
+  "private": true,
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.nextjs.json",
+    "eslint.base.js",
+    "prettier.config.js"
+  ],
+  "exports": {
+    "./tsconfig.base.json": "./tsconfig.base.json",
+    "./tsconfig.nextjs.json": "./tsconfig.nextjs.json",
+    "./eslint": "./eslint.base.js",
+    "./prettier": "./prettier.config.js"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^15.1.6",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript": "^5.7.3"
+  }
+}
