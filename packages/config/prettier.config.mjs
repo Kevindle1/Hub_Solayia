@@ -1,5 +1,5 @@
 /** Configuration Prettier partagée (Solayia). */
-module.exports = {
+export default {
   semi: true,
   singleQuote: false,
   trailingComma: "all",

@@ -1,0 +1,32 @@
+/**
+ * Tokens de la charte Solayia — source de référence en variables CSS.
+ * (Le preset Tailwind reprend ces mêmes valeurs pour les classes utilitaires.)
+ */
+:root {
+  /* Fonds & surfaces */
+  --bg: #f4f4ef; /* fond ivoire clair */
+  --surface: #ffffff; /* cartes, panneaux */
+  --surface-2: #faf9f4; /* fonds secondaires */
+
+  /* Navy — primaire */
+  --navy: #0e1937; /* texte, boutons, logo, actions */
+  --navy-d: #0a1229; /* navy au survol */
+  --navy-tint: #eceef3; /* fonds navy très clairs */
+
+  /* Or — accent signature */
+  --gold: #cca95b; /* états actifs, progression, validation */
+  --gold-d: #b8964a; /* or foncé : texte sur fond clair */
+  --gold-bg: #f7efd9; /* fond or très clair */
+
+  /* Texte */
+  --ink: #0e1937; /* texte principal */
+  --ink-2: #56607a; /* texte secondaire */
+  --faint: #9aa0ad; /* texte tertiaire / placeholders */
+
+  /* Bordures */
+  --line: #e6e5dd;
+
+  /* Polices (variables alimentées par next/font dans chaque app) */
+  --font-title: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+}

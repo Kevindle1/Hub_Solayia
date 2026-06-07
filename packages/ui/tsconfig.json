@@ -1,0 +1,10 @@
+{
+  "extends": "@solayia/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": ["src", "tailwind-preset.ts"],
+  "exclude": ["node_modules", "dist"]
+}
